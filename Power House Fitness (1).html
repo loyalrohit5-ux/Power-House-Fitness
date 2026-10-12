@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Power House Fitness – Gym in Adampur, Haryana</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#0b0b0c;--bg2:#121214;--card:#161618;--text:#efe9dd;--muted:#9a958a;--gold:#c9a45c;--gold2:#e6c985;--line:#2a2a2c;--ink:#0b0b0c}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f2ea;--bg2:#efe9dc;--card:#fffdf8;--text:#1a1917;--muted:#6f6a5f;--gold:#9a7424;--gold2:#7d5d17;--line:#ddd5c3;--ink:#fffdf8}}
+:root[data-theme="light"]{--bg:#f6f2ea;--bg2:#efe9dc;--card:#fffdf8;--text:#1a1917;--muted:#6f6a5f;--gold:#9a7424;--gold2:#7d5d17;--line:#ddd5c3;--ink:#fffdf8}
+*,*:before,*:after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Jost,system-ui,-apple-system,sans-serif}
+h1,h2,h3{font-family:"Bebas Neue",Impact,"Arial Narrow",sans-serif;font-weight:400;letter-spacing:.04em;line-height:.95;margin:0}
+.it{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:500;letter-spacing:0;text-transform:none;color:var(--gold)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+.eyebrow{font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow:before{content:"";width:34px;height:1px;background:var(--gold)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Bebas Neue",Impact,sans-serif;font-size:23px;letter-spacing:.12em}
+.logo svg{width:30px;height:30px;color:var(--gold)}
+nav .links{display:flex;gap:22px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;align-items:center}
+@media(max-width:560px){nav .links a:not(.cta-s){display:none}}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;border:1px solid var(--gold);background:var(--gold);color:var(--ink);border-radius:2px}
+.btn.ghost{background:transparent;color:var(--text)}
+.cta-s{border:1px solid var(--gold);padding:7px 16px;color:var(--gold);border-radius:2px}
+.hero{padding:70px 0 64px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 10%,color-mix(in srgb,var(--gold) 20%,transparent),transparent 55%),var(--bg)}
+.hero .bar{position:absolute;left:-30px;right:-30px;bottom:34px;color:var(--gold);opacity:.22;pointer-events:none}
+.hero h1{font-size:clamp(66px,19vw,170px)}
+.hero h1 .it{font-size:.62em;display:block;margin-top:6px}
+.hero p{max-width:480px;color:var(--muted);font-size:17px;margin:22px 0 30px}
+.hero .row{display:flex;gap:12px;flex-wrap:wrap;position:relative}
+.rating{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);padding:7px 16px;font-size:13px;letter-spacing:.1em;margin-bottom:26px;background:var(--bg2)}
+.rating b{color:var(--gold);font-weight:600}
+.strip{border-block:1px solid var(--line);background:var(--bg2)}
+.strip .wrap{display:grid;grid-template-columns:repeat(3,1fr);text-align:center}
+.strip div{padding:22px 6px;border-right:1px solid var(--line)}
+.strip div:last-child{border:0}
+.strip strong{display:block;font:400 clamp(32px,8vw,46px)/1 "Bebas Neue",Impact,sans-serif;color:var(--gold);letter-spacing:.05em}
+.strip span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+section{padding:72px 0}
+h2{font-size:clamp(42px,10vw,68px);margin-bottom:10px}
+.sub{color:var(--muted);margin:0 0 34px;max-width:440px}
+.grid{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);padding:28px 24px;position:relative;transition:background .25s}
+.card:hover{background:var(--bg2)}
+.card .num{position:absolute;right:20px;top:16px;font:400 40px/1 "Bebas Neue",Impact,sans-serif;color:var(--line)}
+.card svg{width:44px;height:44px;color:var(--gold);margin-bottom:16px}
+.card h3{font-size:30px;margin-bottom:8px}
+.card p{margin:0 0 16px;color:var(--muted);font-size:15px}
+.card a{color:var(--gold);font-size:12px;letter-spacing:.2em;text-transform:uppercase;border-bottom:1px solid var(--gold);padding-bottom:2px}
+.reviews{background:var(--bg2);border-block:1px solid var(--line)}
+.score{display:flex;align-items:center;gap:18px;margin-bottom:30px}
+.score strong{font:400 84px/1 "Bebas Neue",Impact,sans-serif;color:var(--gold)}
+.stars{color:var(--gold);letter-spacing:4px}
+.quotes{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+blockquote{margin:0;padding:26px 24px;border:1px solid var(--line);background:var(--card);position:relative}
+blockquote:before{content:"“";font:italic 500 70px/1 "Cormorant Garamond",Georgia,serif;color:var(--gold);position:absolute;top:6px;left:16px;opacity:.5}
+blockquote p{font:italic 500 22px/1.35 "Cormorant Garamond",Georgia,serif;margin:22px 0 14px}
+blockquote small{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.contact{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.box{border:1px solid var(--line);background:var(--card);padding:30px 26px}
+.box p{margin:0 0 18px}
+.box b{display:block;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:2px}
+.box .acts{display:flex;gap:10px;flex-wrap:wrap}
+.map{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:repeating-linear-gradient(135deg,transparent 0 18px,color-mix(in srgb,var(--gold) 7%,transparent) 18px 19px),var(--card)}
+.map svg{width:46px;height:46px;color:var(--gold)}
+.map h3{font-size:32px}
+footer{padding:34px 0;text-align:center;color:var(--muted);font-size:12px;letter-spacing:.2em;text-transform:uppercase;border-top:1px solid var(--line)}
+footer .it{display:block;font-size:22px;margin-bottom:6px;letter-spacing:0}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--gold);color:var(--ink);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:13px 20px;border-radius:99px;box-shadow:0 8px 24px #0006;z-index:20}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="plate" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="20" cy="20" r="17"/><circle cx="20" cy="20" r="11"/><circle cx="20" cy="20" r="3.5"/></symbol>
+<symbol id="pin" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 36s11-10 11-19a11 11 0 0 0-22 0c0 9 11 19 11 19z"/><circle cx="20" cy="17" r="4"/></symbol>
+</defs></svg>
+
+<nav><div class="wrap">
+  <div class="logo"><svg><use href="#plate"/></svg>POWER HOUSE</div>
+  <div class="links"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a><a class="cta-s" href="tel:+919253330339">Call</a></div>
+</div></nav>
+
+<header class="hero">
+  <svg class="bar" viewBox="0 0 800 80" preserveAspectRatio="none" height="80" width="100%" fill="currentColor"><rect x="0" y="37" width="800" height="6"/><rect x="40" y="6" width="14" height="68"/><rect x="58" y="14" width="12" height="52"/><rect x="74" y="22" width="10" height="36" /><rect x="716" y="22" width="10" height="36"/><rect x="730" y="14" width="12" height="52"/><rect x="746" y="6" width="14" height="68"/></svg>
+  <div class="wrap">
+    <div class="rating"><b>★ 4.9</b> · 104 Google reviews · Open until 9:30 pm</div>
+    <div class="eyebrow">Adampur, Haryana</div>
+    <h1>Power House<span class="it">Fitness</span></h1>
+    <p>Quality equipment, professional trainers and a friendly atmosphere. Train with intention, every single day.</p>
+    <div class="row">
+      <a class="btn" href="https://wa.me/919253330339?text=Hi%20Power%20House%20Fitness%2C%20I%27d%20like%20to%20know%20about%20membership." target="_blank" rel="noopener">Join on WhatsApp</a>
+      <a class="btn ghost" href="#services">Our services</a>
+    </div>
+  </div>
+</header>
+
+<div class="strip"><div class="wrap">
+  <div><strong>4.9</strong><span>Rating</span></div>
+  <div><strong>104</strong><span>Reviews</span></div>
+  <div><strong>06</strong><span>Programs</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="eyebrow">What we offer</div>
+  <h2>Train <span class="it">your way</span></h2>
+  <p class="sub">Six programs, one goal: a stronger you.</p>
+  <div class="grid" id="svc"></div>
+</div></section>
+
+<section class="reviews" id="reviews"><div class="wrap">
+  <div class="eyebrow">Member voices</div>
+  <h2>Loved by <span class="it">our members</span></h2>
+  <div class="score"><strong>4.9</strong><div><div class="stars">★★★★★</div><small style="color:var(--muted)">104 Google reviews</small></div></div>
+  <div class="quotes">
+    <blockquote><p>Good location and nice place for workout.</p><small>Google review</small></blockquote>
+    <blockquote><p>Best gym trainers 💪 and much friendly environment.</p><small>Google review</small></blockquote>
+    <blockquote><p>Very good gym and personal trainer available, and good condition gym.</p><small>Google review</small></blockquote>
+  </div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+  <div class="eyebrow">Find us</div>
+  <h2>Visit the <span class="it">gym</span></h2>
+  <p class="sub">Walk in for a workout, or message us first.</p>
+  <div class="contact">
+    <div class="box">
+      <p><b>Address</b>7FJC+R7J, Unnamed Road, Jawahar Nagar, Mandi, Adampur, Haryana 125052</p>
+      <p><b>Hours</b>Open today · closes 9:30 pm</p>
+      <p><b>Phone / WhatsApp</b>92533 30339</p>
+      <p><b>Email</b><a href="mailto:loyalrohit5@gmail.com">loyalrohit5@gmail.com</a></p>
+      <div class="acts">
+        <a class="btn" href="tel:+919253330339">Call</a>
+        <a class="btn ghost" href="https://wa.me/919253330339" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href="mailto:loyalrohit5@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="box map">
+      <svg><use href="#pin"/></svg>
+      <h3>Power House Fitness</h3>
+      <span style="color:var(--muted)">Jawahar Nagar, Mandi, Adampur</span>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Power+house+fitness+Adampur+Haryana" target="_blank" rel="noopener">Get directions</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><span class="it">Strength is a practice.</span>© <span id="yr"></span> Power House Fitness · Adampur</footer>
+
+<a class="fab" href="https://wa.me/919253330339" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+var I={
+aero:'<path d="M6 34l8-12 6 8 6-14 8 10" /><circle cx="30" cy="8" r="3"/>',
+cross:'<path d="M6 32h28M10 24v16M30 24v16M14 24h12M20 12l4 8-8 0 4-8z"/>',
+sport:'<circle cx="20" cy="20" r="14"/><path d="M6 20h28M20 6c-8 8-8 20 0 28M20 6c8 8 8 20 0 28"/>',
+weight:'<path d="M3 20h34M8 11v18M13 14v12M27 14v12M32 11v18"/>',
+nut:'<path d="M20 12c-6-6-15 0-12 9 2 7 8 14 12 14s10-7 12-14c3-9-6-15-12-9z"/><path d="M20 12c0-4 2-7 6-8"/>',
+cyc:'<circle cx="9" cy="27" r="7"/><circle cx="31" cy="27" r="7"/><path d="M9 27l7-14h9l6 14M16 13l7 14M14 9h5"/>'};
+var S=[["aero","Aerobics","High-energy group cardio to build stamina and burn calories."],
+["cross","Crossfit","Functional, high-intensity training for all-round strength."],
+["sport","Adult Sports","Stay active and competitive with sports for grown-ups."],
+["weight","Weight Training","Quality equipment for building strength and muscle."],
+["nut","Nutrition Consulting","Eating guidance that supports your training goals."],
+["cyc","Cycling","Cardio rides that boost endurance and heart health."]];
+var h="";S.forEach(function(s,i){h+='<div class="card"><span class="num">0'+(i+1)+'</span><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+I[s[0]]+'</svg><h3>'+s[1]+'</h3><p>'+s[2]+'</p><a href="https://wa.me/919253330339?text='+encodeURIComponent("Hi, I'd like to know more about "+s[1]+" at Power House Fitness.")+'" target="_blank" rel="noopener">Enquire</a></div>'});
+document.getElementById("svc").innerHTML=h;
+document.getElementById("yr").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
